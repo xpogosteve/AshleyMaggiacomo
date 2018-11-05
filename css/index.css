@@ -1,0 +1,52 @@
+body{
+  font-family: Helvetica;
+  background-color: #D3D3D3;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-image: url('../assets/buffalo.jpg');
+}
+a:link{
+  text-decoration: none;
+  color: black;
+}
+a:visited{
+  color: black;
+}
+@font-face {
+  font-family: otto;
+  src: url("../assets/Otto.ttf");
+}
+.content{
+  font-family: otto;
+  background-color: rgba(250, 128, 114, 0.7);
+  position: absolute;
+  padding: 2em;
+  border-radius: 10px;
+  top: 50%;
+  left: 50%;
+  margin: -300px 0 0 -250px;
+}
+.profPic{
+  position: relative;
+}
+  .profPic img{
+    border-radius: 50%;
+    border: 2px solid black;
+    height: 350px;
+    width: 350px;
+    padding: 1em;
+  }
+.name{
+  font-size: 100px
+}
+#resume{
+  font-size: 50px;
+  display: inline-block;
+  border: 2px solid rgba(255,255,255,0);
+  padding: 5px;
+}
+#resume:hover{
+  border: 2px solid black;
+  border-radius: 10px;
+}

@@ -5,7 +5,7 @@ html{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background: url('../assets/buffalo.jpg');
+  background-image: url('../assets/buffalo.jpg');
 
 }
 ul {

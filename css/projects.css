@@ -1,0 +1,48 @@
+html{
+  font-family: Poppins;
+  background-color: #D3D3D3;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background: url('../assets/buffalo.jpg') no-repeat center center fixed;
+
+}
+ul {
+  font-family: Poppins;
+  background-color: rgba(250, 128, 114, 0.7);
+  font-size: 18px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+li {
+  float: left;
+}
+li a{
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a.active{
+  background-color: rgba(250, 128, 114, 1.0)
+}
+li a:hover {
+  background-color: rgba(250, 128, 114, 1.0)
+}
+@media screen and (max-width: 600px) {
+  ul li {float: none;}
+}
+.next, .ov, .wo, .lb, .bl{
+  display: none;
+  padding: .5em;
+  background-color: rgba(250, 128, 114, 0.7);
+  height: 100em;
+  padding: 14px;
+}

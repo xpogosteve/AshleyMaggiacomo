@@ -6,6 +6,15 @@
   font-family: "Avenir Next Condensed";
   src: url("../assets/AvenirNextCondensed-Regular.ttf")
 }
+/* @media screen and (max-width: 1200px) {
+  body{
+    background: rgba(250, 128, 114, .6);
+    background-image: none;
+  }
+  .about{
+    display:none;
+  }
+} */
 body{
   font-family: Helvetica;
   background-color: #D3D3D3;
@@ -28,8 +37,8 @@ a:visited{
   padding: 2em;
   border-radius: 10px;
   top: 50%;
-  left: 35%;
-  margin: -300px 0 0 -250px;
+  left: 50%;
+  margin: -300px 0 0 -550px;
 }
 .nav{
   position: relative;

@@ -6,6 +6,10 @@
   font-family: "Avenir Next";
   src: url("../assets/AvenirNext-Regular.ttf")
 }
+@media screen and (max-width: 1200px) {
+  .topnavbar li {float: none;}
+  html{background: rgba(250, 128, 114, .6)}
+}
 html{
   font-family: "Avenir Next Condensed";
   background-color: #D3D3D3;
@@ -43,10 +47,6 @@ html{
 .topnavbar li a:hover {
   background-color: rgba(250, 128, 114, 1.0)
 }
-@media screen and (max-width: 750px) {
-  .topnavbar li {float: none;}
-  html{background: rgba(250, 128, 114, .6)}
-}
 .next, .wo, .lb, .bl{
   display: none;
   padding: .5em;
@@ -62,5 +62,5 @@ html{
   border-radius: 10px
 }
 .pdf{
-  margin-left: 325px
+  margin-left: 20em;
 }

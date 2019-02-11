@@ -1,15 +1,21 @@
+@font-face {
+  font-family: "Avenir Next Condensed";
+  src: url("../assets/AvenirNextCondensed-Regular.ttf")
+}
+@font-face {
+  font-family: "Avenir Next";
+  src: url("../assets/AvenirNext-Regular.ttf")
+}
 html{
-  font-family: Poppins;
+  font-family: "Avenir Next Condensed";
   background-color: #D3D3D3;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
   background-image: url('../assets/buffalo.jpg');
-
 }
-ul {
-  font-family: Poppins;
+.topnavbar {
+  font-family: "Avenir Next Condensed";
   background-color: rgba(250, 128, 114, 0.7);
   font-size: 18px;
   list-style-type: none;
@@ -21,29 +27,40 @@ ul {
   left: 0;
   width: 100%;
 }
-li {
+.topnavbar li {
   float: left;
 }
-li a{
+.topnavbar li a{
   display: block;
   color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
-li a.active{
+.topnavbar li a.active{
   background-color: rgba(250, 128, 114, 1.0)
 }
-li a:hover {
+.topnavbar li a:hover {
   background-color: rgba(250, 128, 114, 1.0)
 }
 @media screen and (max-width: 750px) {
-  ul li {float: none;}
+  .topnavbar li {float: none;}
   html{background: rgba(250, 128, 114, .6)}
 }
-.next, .ov, .wo, .lb, .bl{
+.next, .wo, .lb, .bl{
   display: none;
   padding: .5em;
   background-color: rgba(250, 128, 114, 0.7);
   height: 100em;
+  border-radius: 10px
+}
+.ov{
+  display: block;
+  padding: .5em;
+  background-color: rgba(250, 128, 114, 0.7);
+  height: 100em;
+  border-radius: 10px
+}
+.pdf{
+  margin-left: 325px
 }

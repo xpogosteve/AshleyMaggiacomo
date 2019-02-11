@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
     <meta charset="utf-8">
     <title>Projects</title>
     <script src="../jquery-3.3.1.min.js"></script>
@@ -9,27 +8,40 @@
     <link rel="stylesheet" type="text/css" href="../css/projects.css"/>
   </head>
   <body>
-      <ul>
-        <li><a id="ov">Overview</a></li>
-        <li><a id="nxt">NeXt Office Design</a></li>
-        <li><a id="wo">Women's Center</a></li>
-        <li><a id="lb">Leslie's Boutique</a></li>
-        <li><a id="bl">Block 500</a></li>
+      <ul class="topnavbar">
+        <li><a id="ov" class="active">OVERVIEW</a></li>
+        <li>
+          <a id="wo">INTERCONNECTED</a>
+        </li>
+        <li><a id="nxt">NEXT OFFICE DESIGN</a></li>
+        <li><a id="lb">THG</a></li>
       </ul>
       <div class="next">
         This will be the NeXt page
+        <div class="pdf">
+          <object data="../assets/next.pdf" type="application/pdf" width="1200" height="800">
+            alt : <a href="../assets/next.pdf">next.pdf</a>
+          </object>
+        </div>
       </div>
-      <div class="ov">
+      <div class="ov shown">
         This will be the Overview page
       </div>
       <div class="wo">
-        This will be the Women's Center page
+        This will be the Interconnected page
+        <div class="pdf">
+          <object data="../assets/interconnected.pdf" type="application/pdf" width="1200" height="800">
+            alt : <a href="../assets/interconnected.pdf">interconnected.pdf</a>
+          </object>
+        </div>
       </div>
       <div class="lb">
-        This will be the Leslie's Boutique page
-      </div>
-      <div class="bl">
-        This will be the Block 500 page
+        This will be the THG page
+        <div class="pdf">
+          <object data="../assets/THG.pdf" type="application/pdf" width="1200" height="800">
+            alt : <a href="../assets/THG.pdf">THG.pdf</a>
+          </object>
+        </div>
       </div>
   </body>
 </html>

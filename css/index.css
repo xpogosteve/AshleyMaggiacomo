@@ -38,7 +38,7 @@ a:visited{
   border-radius: 10px;
   top: 50%;
   left: 50%;
-  margin: -300px 0 0 -600px;
+  margin: -325px 0 0 -600px;
 }
 .nav{
   position: relative;
@@ -68,7 +68,7 @@ a:visited{
     font-family: "Avenir Next Condensed";
     font-size: 20px;
     padding: 0 75px 0 75px;
-    text-align: center;
+    text-align: right;
   }
 .profPic{
   position: relative;
@@ -127,3 +127,12 @@ a:visited{
     border: 2px solid black;
     border-radius: 10px;
   }
+.email{
+  font-family: "Avenir Next Condensed";
+  text-align: center;
+  position: relative;
+  margin-top: 10em;
+}
+.email a{
+  display: inline-block;
+}

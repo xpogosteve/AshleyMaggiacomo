@@ -49,19 +49,36 @@ html{
 .topnavbar li a:hover {
   background-color: rgba(131, 96, 115, 1.0);;
 }
-.next, .wo, .lb, .bl{
+.next, .lb, .bl{
   display: none;
   padding: .5em;
   background-color: rgba(131, 96, 115, 0.7);;
   height: auto;
-  border-radius: 10px
+  border-radius: 10px;
+
 }
-.ov{
+.wo{
   display: block;
-  padding: .5em;
   background-color: rgba(131, 96, 115, 0.7);
   height: auto;
-  border-radius: 10px
+  border-radius: 10px;
+  text-align: center;
+}
+.pageImg{
+  display: inline-block;
+  float: left;
+  margin: 1em;
+}
+.pageImg img{
+  border-radius: 10px;
+}
+.title{
+  font-family: "Avenir Next";
+  float: left;
+  display: inline-block;
+  text-align: left;
+  font-size: 50px;
+  margin-top: .20em;
 }
 .pdf{
   margin: 0 auto;

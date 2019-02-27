@@ -1,5 +1,5 @@
 $(document).ready(function (){
-  $("div").css("margin-top", ($("ul").outerHeight()) + 10 + "px");
+  $(".shown").css("margin-top", ($("ul").outerHeight()) + 10 + "px");
   var map = new Map([["nxt",$(".next")],["ov",$(".ov")],["bl",$(".bl")],
   ["wo",$(".wo")],["lb",$(".lb")]]);
   $("li a").click(function () {
@@ -10,10 +10,11 @@ $(document).ready(function (){
       $(".active").removeClass("active");
       $(this).addClass("active");
       element.addClass("shown");
+      $(".shown").css("margin-top", ($("ul").outerHeight()) + 10 + "px");
       element.show();
     }
   });
 });
 $(window).on('resize', function (){
-  $("div").css("margin-top", ($("ul").outerHeight()) + 10 + "px");
+  $(".shown").css("margin-top", ($("ul").outerHeight()) + 10 + "px");
 });

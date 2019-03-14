@@ -75,10 +75,21 @@ html{
 .title{
   font-family: "Avenir Next";
   float: left;
+  position: relative;
   display: inline-block;
   text-align: left;
   font-size: 50px;
   margin-top: .20em;
+}
+.blurb{
+  position: relative;
+  font-family: "Avenir Next Condensed";
+  text-align: left;
+  float: left;
+  width: 1000px;
+  height: 200px;
+  font-size: 20px;
+  margin-top: 80px;
 }
 .pdf{
   margin: 0 auto;

@@ -49,13 +49,19 @@ html{
 .topnavbar li a:hover {
   background-color: rgba(131, 96, 115, 1.0);;
 }
-.next, .lb, .bl{
+.next, .bl{
   display: none;
   padding: .5em;
   background-color: rgba(131, 96, 115, 0.7);;
   height: auto;
   border-radius: 10px;
-
+}
+.lb, .btb{
+  display: none;
+  padding: .5em;
+  background-color: rgba(131, 96, 115, 0.7);;
+  height: 500px;
+  border-radius: 10px;
 }
 .wo{
   display: block;
@@ -94,4 +100,10 @@ html{
 .pdf{
   margin: 0 auto;
   float: none;
+}
+#port{
+  font-size: 30px;
+}
+a:link{
+  color: black;
 }

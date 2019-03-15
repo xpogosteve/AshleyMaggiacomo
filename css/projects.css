@@ -114,7 +114,9 @@ html{
 a:link{
   color: black;
 }
-@media only screen and (max-device-width: 1200px){
+@media only screen
+and (max-device-width : 414px)
+  and (-webkit-device-pixel-ratio : 3){
   .blurb{
     display: block;
     font-size: 3vw;

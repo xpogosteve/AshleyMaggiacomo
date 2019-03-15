@@ -6,15 +6,6 @@
   font-family: "Avenir Next Condensed";
   src: url("../assets/AvenirNextCondensed-Regular.ttf")
 }
-/* @media screen and (max-width: 1200px) {
-  body{
-    background: rgba(250, 128, 114, .6);
-    background-image: none;
-  }
-  .about{
-    display:none;
-  }
-} */
 body{
   font-family: Helvetica;
   background-color: #D3D3D3;
@@ -135,4 +126,34 @@ a:visited{
 }
 .email a{
   display: inline-block;
+}
+@media only screen and (max-width: 1200px){
+  .content{
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    margin: 0 0 0 0;
+  }
+  .about{
+    display: block;
+    float: none;
+  }
+  .nav{
+    display: block;
+    border-right: 0px solid black;
+    float: none;
+    padding-right: 0px;
+    padding-bottom: 20px;
+  }
+  .title{
+    display:block;
+    float:none;
+    border-right: 0px solid black;
+  }
+  .info{
+    font-size: 4vw;
+  }
+  .block{
+    padding: 0px;
+  }
 }

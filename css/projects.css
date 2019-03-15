@@ -109,8 +109,24 @@ html{
   float: none;
 }
 #port{
-  font-size: 30px;
+  font-size: 1.2vw;
 }
 a:link{
   color: black;
+}
+@media only screen and (max-width: 1200px){
+  .blurb{
+    display: block;
+    font-size: 3vw;
+  }
+  .title{
+    display: block;
+    font-size: 5vw;
+  }
+  #port{
+    font-size: 4vw;
+  }
+  .pdf{
+    margin-top: 50em;
+  }
 }

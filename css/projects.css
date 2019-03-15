@@ -92,9 +92,9 @@ html{
   font-family: "Avenir Next Condensed";
   text-align: left;
   float: left;
-  width: 800px;
+  width: 700px;
   height: 200px;
-  font-size: 20px;
+  font-size: 1vw;
   margin-top: 40px;
 }
 .pdf{

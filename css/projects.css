@@ -105,7 +105,7 @@ html{
   margin-top: 40px;
 }
 .pdf{
-  margin: 0 auto;
+  margin-top: 600px;
   float: none;
 }
 #port{
@@ -117,16 +117,19 @@ a:link{
 @media only screen
 and (max-device-width : 414px)
   and (-webkit-device-pixel-ratio : 3){
+  .profPic img{
+    width: 100%;
+  }
   .blurb{
     display: block;
-    font-size: 3vw;
+    font-size: 6vw;
   }
   .title{
     display: block;
-    font-size: 5vw;
+    font-size: 8vw;
   }
   #port{
-    font-size: 4vw;
+    font-size: 7vw;
   }
   .pdf{
     margin-top: 50em;

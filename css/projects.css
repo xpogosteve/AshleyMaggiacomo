@@ -112,6 +112,9 @@ html{
 a:link{
   color: black;
 }
+.list li{
+  list-style-type: none;
+}
 @media only screen
 and (max-width : 1200px)
 {
@@ -128,5 +131,8 @@ and (max-width : 1200px)
   }
   #port{
     font-size: 7vw;
+  }
+  .pdf{
+    display: none;
   }
 }

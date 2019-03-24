@@ -80,6 +80,11 @@ html{
 }
 .pageImg img{
   border-radius: 10px;
+  width: 50%;
+  height: auto;
+}
+.wo img{
+  border-radius: 10px;
   width: 80%;
   height: auto;
 }
@@ -92,10 +97,11 @@ html{
 .blurb{
   position: relative;
   font-family: "Avenir Next Condensed";
-  width: 50%;
+  width: 100%;
   height: auto;
   font-size: 1vw;
   margin-top: 1em;
+  margin-bottom: 1em;
 }
 .pdf{
   width: 100%;

@@ -128,15 +128,38 @@ a:visited{
   display: inline-block;
 }
 @media only screen and (max-width: 1200px){
+  .name{
+    width: 100%;
+    font-size: 6vw;
+    text-align: center;
+    margin: 0 0 0 0;
+  }
   .content{
     width: 100%;
+    height: 100%;
     top: 0%;
     left: 0%;
+    margin: 0 0 0 0;
+    padding: 0;
+  }
+  .profPic{
+    text-align: center;
+    width: 100%;
+    margin: 0 0 0 0;
+    padding: 0;
+    padding-bottom: 20px;
+  }
+  .profPic img{
+    width: 50%;
+    height: auto;
     margin: 0 0 0 0;
   }
   .about{
     display: block;
     float: none;
+    width: 100%;
+    margin: 0 0 0 0;
+    padding: 0;
   }
   .nav{
     display: block;
@@ -144,16 +167,33 @@ a:visited{
     float: none;
     padding-right: 0px;
     padding-bottom: 20px;
+    width: 100%;
+    margin: 0 0 0 0;
   }
   .title{
     display:block;
-    float:none;
+    float: none;
     border-right: 0px solid black;
+    width: 25%;
+    margin: 0 0 0 0;
+    padding: 0;
   }
   .info{
     font-size: 4vw;
+    width: 75%;
+    margin: 0 0 0 0;
+    padding: 0;
   }
   .block{
     padding: 0px;
+    margin: 0 0 0 0;
+    padding: 0;
+  }
+  #resume, #projects, #book{
+    margin: 0 0 0 0;
+    padding: 0;
+  }
+  .links{
+    text-align: center;
   }
 }

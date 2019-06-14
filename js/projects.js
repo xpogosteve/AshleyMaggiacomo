@@ -1,7 +1,7 @@
 $(document).ready(function (){
   $(".shown").css("margin-top", ($("ul").outerHeight()) + 10 + "px");
   var map = new Map([["nxt",$(".next")],["ov",$(".ov")],["bl",$(".bl")],
-  ["wo",$(".wo")],["lb",$(".lb")],["btb",$(".btb")],["ig",$(".ig")]]);
+  ["wo",$(".wo")],["btb",$(".btb")],["ig",$(".ig")]]);
   $("li a").click(function () {
     var element = map.get($(this).attr("id"));
     if(!(element.hasClass("shown"))){

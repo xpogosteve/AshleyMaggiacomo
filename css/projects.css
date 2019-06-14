@@ -69,6 +69,14 @@ html{
 }
 .wo{
   overflow: auto;
+  display: none;
+  background-color: rgba(131, 96, 115, 0.7);
+  height: auto;
+  border-radius: 10px;
+  text-align: center;
+}
+.ig{
+  overflow: auto;
   display: block;
   background-color: rgba(131, 96, 115, 0.7);
   height: auto;
